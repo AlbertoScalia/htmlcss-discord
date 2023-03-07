@@ -119,7 +119,7 @@ nav,
     border-radius: 40px;
 }
 
-.bottone.-bottone {
+.bottone.-bottone, .blu {
     font-size: 20px;
     padding: 16px 40px;
 }
@@ -129,7 +129,7 @@ nav,
     color: white;
 }
 
-footer .bottone {
+footer .bottone, .blu {
     background-color: #7289da;
     color: white;
 }
@@ -181,7 +181,6 @@ section p {
     font-size: 16px;
     line-height: 30px;
     text-align: center;
-    max-width: 300px;
 }
 
 .content {
@@ -197,8 +196,27 @@ section p {
     background-color: #F6F6F6;
 }
 
+.text-area p{
+    padding: 0;
+    text-align: left;
+}
+
+#center{
+    text-align: center;
+}
+
+#no-width{
+    max-width: 0;
+}
+
 .star-box{
     text-align: center;
+    min-height: 100px;
+}
+
+.star-box h2{
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 #big-image {
