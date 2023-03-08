@@ -78,7 +78,7 @@ ul li {
     display: inline-block;
 }
 
-ul li a {
+header li a {
     color: white;
     text-decoration: none;
 }
@@ -297,8 +297,13 @@ footer li {
     font-size: 14px;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
 strong {
-    color: #7289da;
+    color: #7289da !important;
 }
 
 .titolo-footer h2 {
